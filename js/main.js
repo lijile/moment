@@ -362,7 +362,6 @@ document.getElementById('generate').addEventListener('click', function () {
             .replace(/((?:^|\s)#\S+(?:$|\s))/gm, '<span style="color:#576b95">$1</span>')
             .replace(/(https?:\/\/(?:www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b(?:[-a-zA-Z0-9()@:%_\+.~#?&//=]*))/g, '<span style="color:#576b95">$1</span>')
     );
-    console.log(document.getElementById('text').innerHTML);
 
     //九宫格模式设定
     if (document.getElementById('configTypeMultiImage').checked) {
@@ -532,7 +531,7 @@ document.getElementById('generate').addEventListener('click', function () {
             + '<div class="mdui-typo">'
             +     '<p>' + error + '</p>'
             +     '<pre>' + error.stack + '</pre>'
-            +     '<p>你可以通过 <a href="https://github.com/TransparentLC/WechatMomentScreenshot/issues" target="_blank">Issue</a> 向作者反馈 BUG～</p>'
+            +     '<p>你可以通过 <a href="https://github.com/lijile/moment/issues" target="_blank">Issue</a> 向作者反馈 BUG～</p>'
             + '</div>',
             '生成失败'
         );

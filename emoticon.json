@@ -5,6 +5,10 @@
 	},
 	{
 		"name": "\\[狗头\\]",
-		"URL": "images/emo/dog.png"
+		"URL": "images/emo/doge.png"
+	},
+	{
+		"name": "\\[黑狗头\\]",
+		"URL": "images/emo/b_doge.png"
 	}
 ]
